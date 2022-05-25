@@ -6,3 +6,5 @@ from collections import Counter
 ls_dict=['stationname', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park', 'Austin-Forest Park']
 name_count=Counter(ls_dict)
 print(name_count)
+#use most common function to extract top 1 items
+print(name_count.most_common(1))
