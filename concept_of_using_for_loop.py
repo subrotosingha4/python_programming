@@ -12,7 +12,7 @@ for date, stop, riders in entries:
         # Create an empty list for any missing date
         ridership[date] = []
     # Append the stop and riders as a tuple to the date keys list
-    ridership[date].append(stop)
+    ridership[date].append((stop,riders))
 
 print('\n')
 # Print the ridership for '03/09/2016'
